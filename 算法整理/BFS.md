@@ -2,9 +2,9 @@
 
 + 求解最短距离，二叉树层序遍历模板
 
-![image-20220722103221307](E:\study\算法整理\typera_image\image-20220722103221307.png)
+![image-20220722103221307](https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20220722103221307.png)
 
-![image-20220722103423274](E:\study\算法整理\typera_image\image-20220722103423274.png)
+![image-20220722103423274](https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20220722103423274.png)
 
 labuladong密码锁例题：
 
@@ -14,11 +14,11 @@ labuladong密码锁例题：
 
 ## 2385
 
-![image-20220822220820768](E:\study\算法整理\typera_image\image-20220822220820768.png)
+![image-20220822220820768](https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20220822220820768.png)
 
 
 
-![image-20220822221057996](E:\study\算法整理\typera_image\image-20220822221057996.png)
+![image-20220822221057996](https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20220822221057996.png)
 
 + 从3出发，如何完成遍历全部
 + 典型的bfs，只需要进行父节点的记录即可。

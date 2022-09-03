@@ -1,10 +1,10 @@
 # DFS-N皇后
 
-![image-20220721212241404](E:\study\算法整理\typera_image\image-20220721212241404.png)
+![image-20220721212241404](https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20220721212241404.png)
 
 
 
-![image-20220721215724881](E:\study\算法整理\typera_image\image-20220721215724881.png)
+![image-20220721215724881](https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20220721215724881.png)
 
 + https://www.acwing.com/solution/content/2820/
 + 二维回溯法应用,默认传入x，x从0一直到n - 1，遍历完成就是一个结果，还要进行回溯，因为答案可能不只一个。

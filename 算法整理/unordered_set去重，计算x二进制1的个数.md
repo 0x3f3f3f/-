@@ -3,7 +3,7 @@
 + ***学习点都在注释上面***
 + 题目思路不重要，没有几个会的。
 
-![image-20220724172353527](E:\study\算法整理\typera_image\image-20220724172353527.png)![image-20220724172528920](E:\study\算法整理\typera_image\image-20220724172528920.png)
+![image-20220724172353527](https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20220724172353527.png)![image-20220724172528920](https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20220724172528920.png)
 
 题解：https://leetcode.cn/problems/number-of-excellent-pairs/solution/deng-jie-zhuan-huan-pythonjavacgo-by-end-2qzs/
 
