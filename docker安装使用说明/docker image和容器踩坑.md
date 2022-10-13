@@ -2,9 +2,7 @@
 
 ## 步骤一：
 
-# ![image-20220831112658042](https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20220831112658042.png)
-
-
+# <img src="https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20220831112658042.png" alt="image-20220831112658042" style="zoom:50%;" />
 
 + 利用项目的dockerfile文件，拉去一个基础映像，并且执行相应的命令
 + -t代表tag，建立的映像名字
@@ -50,10 +48,25 @@ sudo docker exec -it 容器id /bin/bash
 
 
 
-LTAI5tL5esqJS84WXBuk9vhP
-mfJySgQnLKmCV9W7cVLzZQk5kK5Nf4
+# docker检验安装成功的命令
+
+sudo docker run --rm hello-world  
+
+拉取helloword的映像并且运行
+
+![image-20221012183326865](https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20221012183326865.png)
+
+# 查看docker的相关信息
+
+sudo docker info(可以查看镜像的源)
+
+![image-20221012183601755](https://zhanghao1004.oss-cn-hangzhou.aliyuncs.com/image-20221012183601755.png)
 
 
 
 
+
+# docker拉取映像
+
+docker pull 《映像》
 

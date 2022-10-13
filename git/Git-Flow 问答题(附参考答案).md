@@ -62,6 +62,13 @@ git reset + 目标commit的哈希值
 git checkout + 目标文件名字
 # 明白结果，复制相应的节点到对应的分支。
 git cherry-pick + 要复制的节点的哈希值（可以填写多个）。
-
+# 所有文件内容回滚到某个节点
+git checkout commit 的哈希值
 ```
 
+
+
+### 七.合并逻辑
+
++ 自己首先git clone操作拿到项目，开辟新的分支，然后开发以后rebase到develop分支，这个时候自己的分支和develop分支两个占用同一个节点，然后push操作，开了新的分支需要强制push操作git push --set-upstream origin feature/task-xxx
++ 然后提交一个merge_request，代笔我的操作有merge请求，需要通过合并。如果你在本地没有rebase操作，直接push到自己的分支即可。
