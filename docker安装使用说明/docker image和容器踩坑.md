@@ -28,6 +28,10 @@
 
 ```sh
 sudo docker container run -it -v /mnt/f/wsl_ubuntu_project/cmu15445/project1/bustub:/bustub --name=bustub_env bustub /bin/bash
+
+
+# 学长 tinylinux是新建容器的名字，src代表容器之外的目录，target是容器中的地址，/bin/bash进入容器后执行的第一条指令。
+docker run -dit --name tinylinux --net host --mount type=bind,src="/home/scutech",target="/home/scutech" <image_name> /bin/bash
 ```
 
 + 这才是真正把项目引进docker容器的正确方式，run等于create + 下面的start,-v后面的路径是你本机的项目文件的路径,  :/bustub是替换的文件名字，放在docker里面的根目录下创建的一个文件夹下面。 --name=bustub_env是新建容器的名字 bustub是你的映像的名字,最后的bin/bash打开容器执行的第一条指令，不然的话就会直接退出。
@@ -43,8 +47,6 @@ sudo docker container run -it -v /mnt/f/wsl_ubuntu_project/cmu15445/project1/bus
 进入容器：
 
 sudo docker exec -it 容器id /bin/bash
-
-
 
 
 
@@ -69,4 +71,14 @@ sudo docker info(可以查看镜像的源)
 # docker拉取映像
 
 docker pull 《映像》
+
+
+
+
+
+# 配置环境变量
+
+```sh
+export PKG_URL_PREFIX=ftp://scutech:dingjia@192.168.88.10:/ftp_product_installer/dbackup3/thirdparty
+```
 
